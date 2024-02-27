@@ -1,0 +1,96 @@
+.gallery_content {
+    padding-bottom: 160px;
+    .gallery_container {
+        padding: 0 50px 0 100px;
+    }
+    .view_content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+        // padding: 0 15px;
+    }
+    .gallery_item {
+        position: relative;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        .gallery_overplay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            color: white;
+            padding: 38px 28px;
+
+            text-align: center;
+            align-items: center;
+
+            display: flex;
+            justify-content: center;
+            h3 {
+                font-size: 32px;
+                color: black;
+                margin-bottom: 25px;
+                padding: 0 200px;
+                font-weight: bolder;
+                opacity: 0;
+            }
+            h3.white,p.white{
+                color: white;
+            }
+            p {
+                font-size: 16px;
+                color: black;
+                opacity: 0;
+            }
+        }
+    }
+    .gallery_item:hover .gallery_overplay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        padding: 38px 28px;
+        text-align: center;
+        h3,p{
+            opacity: 1;
+        }
+    }
+    .gallery_item:hover .gallery_overplay.g1 {
+        background-color: #efa459c5;
+    }
+    .gallery_item:hover .gallery_overplay.g2 {
+        background-color: #eb899eb5;
+    }
+    .gallery_item:hover .gallery_overplay.g3 {
+        background-color: #796e96c3;
+    }
+    .gallery_item:hover .gallery_overplay.g4 {
+        background-color: #36353bbc;
+    }
+    .gallery_item:hover .gallery_overplay.g5 {
+        background-color: #46a6abbe;
+    }
+    .gallery_g1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+    }
+    .gallery_g2,
+    .gallery_g3 {
+        grid-column: 3 / span 2;
+    }
+    .gallery_g5 {
+        grid-column: 2 / span 3;
+    }
+}
