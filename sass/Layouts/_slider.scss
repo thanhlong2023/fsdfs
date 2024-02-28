@@ -1,45 +1,85 @@
 .slider {
-    background: url(../../img/background2.png) top center/cover no-repeat;
+    background: url(../../img/background2.png) no-repeat;
+    padding: 130px 0 178px 0;
+    text-align: center;
 
     .slider_container {
         padding: 0 50px 0 100px;
     }
-    padding: 150px 0 178px 0;
-    text-align: center;
+
     h3 {
-        font-size: 54px;
-        padding-bottom: 50px;
+        font-size: 47px;
+        padding-bottom: 115px;
+        font-weight: 500;
+        letter-spacing: -1px;
+        padding-left: 125px;
     }
     .slider_container {
         display: flex;
-        justify-content: space-between;
+
+        margin-left: 145px;
+        padding-top: 10px;
     }
 }
 .slider_item {
-    display: flex;
-    width: 33.33%;
+    padding-right: 65px;
     .slider_name_product {
         font-size: 32px;
-        padding-top: 30px;
-        font-weight: 400;
+        padding-top: 20px;
+        font-weight: 100;
     }
-    .wrapper > :nth-child(3) {
+    .wrapper_slider > :nth-child(3) {
         font-size: 16px;
         font-weight: bold;
     }
-    .wrapper {
+    .wrapper_slider {
         // padding: 10px;
         span {
             color: #e62d1e;
             text-decoration: line-through;
-            font-weight: lighter;
+            font-weight: 600;
         }
     }
-    .wrapper > :nth-child(2) {
+    .wrapper_slider > :nth-child(2) {
         font-size: 32px;
         font-weight: bold;
     }
     .slider_price {
+        padding-top: 15px;
+        padding-bottom: 28px;
+        font-size: 20px;
+        font-weight: 300px;
+        letter-spacing: -1px;
+    }
+    .btn_slider {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slider_sp {
+        text-align: center;
         padding: 30px 0;
+        background: url(../../img/background2.png) no-repeat;
+        h3 {
+            padding: 20px 0;
+        }
+        .slider_name_product {
+            font-weight: bold;
+            padding: 10px 0 5px 0;
+        }
+        span {
+            color: #e62d1e;
+            text-decoration: line-through;
+        }
+        .slider_price {
+            padding-bottom: 10px;
+        }
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+        .btn_slider {
+            background: linear-gradient(0.25turn, #ffffff, #50c1c7);
+        }
     }
 }

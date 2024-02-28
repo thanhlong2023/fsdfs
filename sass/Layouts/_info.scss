@@ -1,12 +1,15 @@
 .info {
-    .info_container{
-      padding: 0 50px 0 100px;
-    }
-    padding: 160px 0;
+    padding: 140px 0;
+    padding-bottom: 160px;
     background-color: #f4f6f5;
+    .info_container {
+        padding: 0 50px 0 245px;
+        display: flex;
+    }
+
     // padding: 100px 0;
-    .info_left,
-    .info_right,
+   
+    // .info_right,
     .email,
     .name {
         float: left;
@@ -29,13 +32,15 @@
     }
     .btn_yellow {
         background-color: #f8a14b;
-        width: 100%;
-        margin-top: 50px;
+        width: 547px;
+        margin-top: 52px;
+        margin-left: 24px;
     }
     .info_left h3 {
-        margin-bottom: 70px;
+        margin-bottom: 50px;
         font-size: 54px;
         font-weight: 500;
+        letter-spacing: -3px;
     }
     // ====
     .form-control {
@@ -50,7 +55,7 @@
         border-bottom: 2px #e4e6e6 solid;
         display: block;
         width: 100%;
-        padding: 15px 0;
+        padding: 26px 0;
         font-size: 18px;
         color: black;
     }
@@ -80,5 +85,9 @@
     .form-control input:valid + label span {
         color: black;
         transform: translateY(-30px);
+    }
+
+    .info_right_top{
+        margin-left: 23px;
     }
 }

@@ -21,20 +21,26 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 
+    <!-- font google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
     <!-- main css  -->
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <div class="">
-        <header class="pc">
+    <div class="pc">
+        <header class="">
             <div class="header_container">
                 <div class="header_content">
                     <div class="header_content_left">
                         <img src="./img/logo.png" alt="">
                     </div>
                     <div class="header_content_right">
-                        <nav class="pc">
+                        <nav class="nav_header">
                             <ul>
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Bedroom</a></li>
@@ -72,82 +78,6 @@
                 </div>
             </div>
         </header>
-        <!-- ----------------------------------- -->
-        <header class="sp">
-            <div class="">
-                <div class="header_content">
-                    <div class="header_content_left">
-                        <img src="./img/logo.png" alt="">
-                    </div>
-                    <div class="header_content_right">
-                        <!-- <nav class="">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Bedroom</a></li>
-                                <li><a href="#">Lounge</a></li>
-                                <li><a href="#">Kitchen</a></li>
-                                <li><a href="#">Lighting</a></li>
-                            </ul>
-                        </nav> -->
-                        <!-- <div class="search_right">
-                            <input type="text" class="header_input" placeholder="Find something...">
-                            <i class="fa fa-search"></i>
-                        </div> -->
-                        <!-- <div class="cart">
-                            <a href="#">
-                                <i class="fa fa-cart-plus"></i>
-                            </a>
-                            <span class="number_cart">3</span>
-                        </div> -->
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                            <div class="container-fluid">
-
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                    <div class="navbar-nav">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                        <a class="nav-link" href="#">Bedroom</a>
-                                        <a class="nav-link" href="#">Lounge</a>
-                                        <a class="nav-link" href="#">Kitchen</a>
-                                        <a class="nav-link" href="#">Lighting</a>
-                                        <div class="search_right">
-                                            <input type="text" class="header_input" placeholder="Find something...">
-                                            <i class="fa fa-search"></i>
-                                        </div>
-                                        <div class="cart">
-                                            <a href="#">
-                                                <i class="bx bx-cart"></i>
-                                            </a>
-                                            <span class="number_cart">3</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div class="header_banner">
-                    <div class="header_banner_item_left">
-                        <h3>Premium collection</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismorem
-                            ipsum
-                            dolor sit amet, consectetuer adipiscing elit</p>
-                        <p id="money">£2,300</p>
-                        <button class="btn">View the collection</button>
-                    </div>
-                    <div class="header_banner_item_right">
-                        <img src="./img/banner1.png" alt="banner1">
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </header>
-        <!-- ----------------------------  -->
-
         <section class="banner">
             <div class="banner_container">
                 <div class="banner_item_left">
@@ -157,9 +87,10 @@
                     <div class="banner_item_right_child">
                         <p class="living">Living room</p>
                         <h3>Minimalist furniture</h3>
-                        <p class="nth">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                        <p class="nth">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh
                             euismorem </p>
-                        <button class="btn">View armchairs</button>
+                        <button class="btn_banner btn">View armchairs</button>
                     </div>
 
                 </div>
@@ -170,76 +101,31 @@
         <section class="slider">
             <h3>Special discounts</h3>
             <div class="slider_container">
-                <!-- <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="slider_item">
-                            <div class="wrapper">
-                                <img src="./img/slider1.png" alt="">
-                                <p class="slider_name_product">Sweedish white</p>
-                                <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
-                                <button class="btn">View Tri-post table</button>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="slider_item">
-                            <div class="wrapper">
-                                <img src="./img/slider2.png" alt="">
-                                <p class="slider_name_product">Tri-post table</p>
-                                <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
-                                <button class="btn">View Tri-post table</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="slider_item">
-                            <div class="wrapper">
-                                <img src="./img/slider3.png" alt="">
-                                <p class="slider_name_product">Pixar lamp</p>
-                                <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
-                                <button class="btn">View Tri-post table</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="slider_item">
-                            <div class="wrapper">
-                                <img src="./img/slider4.png" alt="">
-                                <p class="slider_name_product">Sweedish white</p>
-                                <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
-                                <button class="btn">View Tri-post table</button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div> -->
 
                 <div class="slider_item">
-                    <div class="wrapper">
+                    <div class="wrapper_slider">
                         <img src="./img/slider4.png" alt="">
                         <p class="slider_name_product">Sweedish white</p>
                         <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
-                        <button class="btn">View Tri-post table</button>
+                        <button class="btn btn_slider">View Tri-post table</button>
                     </div>
 
                 </div>
                 <div class="slider_item">
-                    <div class="wrapper">
-                        <img src="./img/slider2.png" alt="">
-                        <p class="slider_name_product">Sweedish white</p>
-                        <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
-                        <button class="btn">View Tri-post table</button>
-                    </div>
-
-                </div>
-                <div class="slider_item">
-                    <div class="wrapper">
+                    <div class="wrapper_slider">
                         <img src="./img/slider3.png" alt="">
                         <p class="slider_name_product">Sweedish white</p>
                         <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
-                        <button class="btn">View Tri-post table</button>
+                        <button class="btn btn_slider">View Tri-post table</button>
+                    </div>
+
+                </div>
+                <div class="slider_item">
+                    <div class="wrapper_slider">
+                        <img src="./img/slider2.png" alt="">
+                        <p class="slider_name_product">Sweedish white</p>
+                        <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
+                        <button class="btn btn_slider">View Tri-post table</button>
                     </div>
 
                 </div>
@@ -303,6 +189,9 @@
                             </figcaption>
                         </a>
                     </figure>
+
+                </div>
+                <div class="view_content_2">
                     <figure class="gallery_item gallery_g4">
                         <a href="./img/grid2.png" data-lightbox="gallery">
                             <img src="./img/grid2.png" alt="">
@@ -378,7 +267,7 @@
                 <div class="footer_left">
                     <div class="footer_left_top">
                         <div class="footer_left_top_left">
-                            <h3>Departments</h3>
+                            <h3 class="h3_footer">Departments</h3>
                             <div class="footer_item_left">
 
                                 <p class="bold">Living room</p>
@@ -386,8 +275,8 @@
                                 <p>Lorem ipsum</p>
                                 <p>Dolor sit amet</p>
                                 <p>Consectetuer</p>
-                                <br>
-                                <p class="bold">Bathoom</p>
+
+                                <p class="bold title_departments">Bathoom</p>
                                 <p>Sofas/chairs</p>
                                 <p>Lorem ipsum </p>
                             </div>
@@ -395,8 +284,8 @@
                                 <p class="bold">Bathoom</p>
                                 <p>Sofas/chairs</p>
                                 <p>Lorem ipsum</p>
-                                <br>
-                                <p class="bold">Bedroom</p>
+
+                                <p class="bold title_departments">Bedroom</p>
                                 <p>Lorem ipsum </p>
                                 <p>Dolor sit amet</p>
                                 <p>Consectetuer</p>
@@ -404,12 +293,12 @@
                             <div class="clear"></div>
                         </div>
                         <div class="footer_left_top_right">
-                            <h3>Contact</h3>
+                            <h3 class="h3_footer contact">Contact</h3>
                             <p class="bold">Customer support</p>
                             <p>Call 01482 128394</p>
                             <p>Send us a message</p>
-                            <br>
-                            <p class="bold">The team</p>
+
+                            <p class="bold the_team">The team</p>
                             <p>About us</p>
                             <p>Team careers</p>
                         </div>
@@ -425,12 +314,199 @@
                 </div>
                 <div class="clear"></div>
             </div>
-            
+
             <div class="footer_left_bottom">
                 <p>Made in Hornsea, East Yorkshire, England | www.uirepublic.net</p>
             </div>
         </footer>
     </div>
+
+
+    <div class="sp">
+        <header>
+            <nav>
+                <div class="navbar">
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>
+                        <div class="logo">
+                            <img src="./img/logo.png" alt="">
+                        </div>
+                        <div class="menu-items">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Bedroom</a></li>
+                            <li><a href="#">Lounge</a></li>
+                            <li><a href="#">Kitchen</a></li>
+                            <li><a href="#">Lighting</a></li>
+                            <li>
+                                <div class="search_right">
+                                    <input type="text" class="header_input" placeholder="Find something...">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart">
+                                    <a href="#">
+                                        <i class="bx bx-cart"></i>
+                                    </a>
+                                    <span class="number_cart">3</span>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header_banner_sp">
+                <div class="header_banner_item_left_sp">
+                    <h3>Premium collection</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismorem
+                        ipsum
+                        dolor sit amet, consectetuer adipiscing elit</p>
+                    <p id="money">£2,300</p>
+
+                </div>
+                <div class="header_banner_item_right_sp">
+                    <img src="./img/banner1.png" alt="banner1">
+                    <button class="btn">View the collection</button>
+                </div>
+
+            </div>
+        </header>
+        <section class="banner_sp">
+            <div class="banner_container_sp">
+                <div class="banner_item_top">
+                    <img src="./img/banner2.png" alt="banner2">
+                </div>
+                <div class="banner_item_bottom">
+                    <div class="banner_item_right_child">
+                        <p class="living_sp">Living room</p>
+                        <h3>Minimalist furniture</h3>
+                    </div>
+                    <p class="nth_sp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        nibh
+                        euismorem </p>
+                    <button class="btn_banner_sp btn">View armchairs</button>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="slider_sp">
+            <h3>Special discounts</h3>
+            <div class="slider_container_sp">
+                <div class="slider_item_sp">
+                    <div class="wrapper_slider_sp">
+                        <img src="./img/slider4.png" alt="">
+                        <p class="slider_name_product">Sweedish white</p>
+                        <p class="slider_price"><span>£299</span> <b>£199</b> | next day delivery</p>
+                        <button class="btn btn_slider">View Tri-post table</button>
+                    </div>
+
+                </div>
+                <!-- <div class="slider_item_sp">
+                    <div class="wrapper_slider_sp">
+                        <img src="./img/slider3.png" alt="">
+                        <p class="slider_name_product">Sweedish white</p>
+                        <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
+                        <button class="btn btn_slider">View Tri-post table</button>
+                    </div>
+
+                </div> -->
+                <!-- <div class="slider_item_sp">
+                    <div class="wrapper_slider_sp">
+                        <img src="./img/slider2.png" alt="">
+                        <p class="slider_name_product">Sweedish white</p>
+                        <p class="slider_price"><span>£299</span> £199 | next day delivery</p>
+                        <button class="btn btn_slider">View Tri-post table</button>
+                    </div>
+
+                </div> -->
+            </div>
+        </section>
+        <section class="gallery_content_sp">
+            <div class="gallery_container_sp">
+                <div class="view_content_sp">
+                    <figure class="gallery_item">
+                        <a href="./img/grid5.png" data-lightbox="gallery">
+                            <img src="./img/grid5.png" alt="">
+                            <figcaption class="gallery_overplay g1">
+                                <div>
+                                    <h3>Lounge
+                                        furniture
+                                    </h3>
+                                    <p>View collections</p>
+                                </div>
+
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="gallery_item">
+                        <a href="./img/grid4.png" data-lightbox="gallery">
+                            <img src="./img/grid4.png" alt="">
+                            <figcaption class="gallery_overplay g2">
+                                <div>
+                                    <h3>Bedroom
+                                        furniture
+                                    </h3>
+                                    <p>View collections</p>
+                                </div>
+
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="gallery_item">
+                        <a href="./img/grid3.png" data-lightbox="gallery">
+                            <img src="./img/grid3.png" alt="">
+                            <figcaption class="gallery_overplay g3">
+                                <div>
+                                    <h3>Kitchens and
+                                        kitchenware
+                                    </h3>
+                                    <p>View collections</p>
+                                </div>
+
+                            </figcaption>
+                        </a>
+                    </figure>
+
+                </div>
+                <div class="view_content_2">
+                    <figure class="gallery_item">
+                        <a href="./img/grid2.png" data-lightbox="gallery">
+                            <img src="./img/grid2.png" alt="">
+                            <figcaption class="gallery_overplay g4">
+                                <div>
+                                    <h3 class="white">Special
+                                        offers
+                                    </h3>
+                                    <p class="white">View deals</p>
+                                </div>
+
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="gallery_item">
+                        <a href="./img/grid1.png" data-lightbox="gallery">
+                            <img src="./img/grid1.png" alt="">
+                            <figcaption class="gallery_overplay g5">
+                                <div>
+                                    <h3>Lighting
+                                    </h3>
+                                    <p>View collections</p>
+                                </div>
+
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </div>
+
 
 
     <!-- jquery  -->
